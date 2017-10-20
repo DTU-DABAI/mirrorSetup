@@ -4,7 +4,7 @@ import re
 from shutil import copyfile
 
 # organizations to mirror into
-organizations = ['DTUComputeCognitiveSystems']
+organizations = ['DTU-DABAI']
 
 repo = git.Repo('.')
 assert not repo.bare
